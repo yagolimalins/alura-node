@@ -10,7 +10,6 @@ db.once("open", () => {
 })
 
 const app = express();
-app.use(express.json())
 routes(app)
 
 app.listen(port, () => {
